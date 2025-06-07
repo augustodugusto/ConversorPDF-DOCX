@@ -21,14 +21,6 @@ Como Funciona:
 
 O processo de conversão é dividido em duas etapas principais para garantir o melhor resultado possível:
 
-graph LR
-    A["<div style='font-weight:bold; font-size:16px;'>Arquivo PDF</div><div style='font-size:12px;'>Entrada do Usuário</div>"] -->|"Etapa 1: Extração com PyMuPDF"| B["<div style='font-weight:bold; font-size:16px;'>HTML Semântico</div><div style='font-size:12px;'>Estrutura Intermediária</div>"]
-    B -->|"Etapa 2: Conversão com Pandoc"| C["<div style='font-weight:bold; font-size:16px;'>Arquivo DOCX</div><div style='font-size:12px;'>Saída Editável</div>"]
-
-    style A fill:#D9534F,stroke:#333,stroke-width:2px,color:#fff
-    style B fill:#f0f0f0,stroke:#333,stroke-width:2px,color:#333
-    style C fill:#428BCA,stroke:#333,stroke-width:2px,color:#fff
-
 Extração (PDF → HTML): A biblioteca PyMuPDF analisa o PDF e extrai seu conteúdo de forma estruturada, gerando um arquivo HTML que representa o fluxo de texto e as imagens.
 
 Conversão (HTML → DOCX): A ferramenta Pandoc é utilizada para converter este HTML intermediário em um arquivo .docx compatível com o Microsoft Word e outros editores.
