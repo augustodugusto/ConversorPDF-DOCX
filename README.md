@@ -2,9 +2,11 @@ Conversor PDF para DOCX
 Uma aplicação de desktop simples e eficiente para converter arquivos PDF em documentos .docx totalmente editáveis, focada em preservar o layout original e a estrutura do texto.
 
 Visão Geral
+
 Este projeto foi desenvolvido como um estudo de caso prático em engenharia de software e manipulação de dados. O objetivo era criar uma solução funcional e distribuível para um problema comum, aplicando conceitos desde a arquitetura do software até o empacotamento final para o usuário.
 
 Principais Funcionalidades
+
 Interface Gráfica Intuitiva: Uma janela simples e limpa que qualquer usuário pode operar sem dificuldades.
 
 Conversão de Alta Fidelidade: Foco em manter o texto fluido e os parágrafos corretamente estruturados, ao invés de criar caixas de texto flutuantes.
@@ -15,7 +17,8 @@ Autocontido: O instalador inclui todas as dependências necessárias (incluindo 
 
 Código Aberto: O código está disponível para estudo, modificação e contribuição da comunidade.
 
-Como Funciona: A Arquitetura
+Como Funciona:
+
 O processo de conversão é dividido em duas etapas principais para garantir o melhor resultado possível:
 
 graph LR
@@ -31,6 +34,7 @@ Extração (PDF → HTML): A biblioteca PyMuPDF analisa o PDF e extrai seu conte
 Conversão (HTML → DOCX): A ferramenta Pandoc é utilizada para converter este HTML intermediário em um arquivo .docx compatível com o Microsoft Word e outros editores.
 
 Instalação e Uso (Para Usuários)
+
 Para usar a aplicação, basta baixar e executar o instalador.
 
 Baixe o Instalador:
@@ -83,16 +87,18 @@ Execute o script principal:
 
 python conversor.py
 
+
 Licença
+
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
+
 Agradecimentos
+
+
 Este projeto não seria possível sem o trabalho incrível das comunidades por trás das seguintes ferramentas:
 
-PyMuPDF
-
-Pandoc
-
-PyInstaller
-
-Inno Setup
+PyMuPDF;
+Pandoc;
+PyInstaller;
+Inno Setup.
