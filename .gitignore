@@ -1,0 +1,14 @@
+# Pastas geradas que não devem ser enviadas
+dist/
+build/
+Output/
+
+# Arquivos de configuração do PyInstaller
+*.spec
+
+# Ambiente virtual Python
+venv/
+.venv/
+
+# Cache do Python
+__pycache__/
