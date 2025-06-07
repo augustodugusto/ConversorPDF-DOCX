@@ -102,3 +102,9 @@ PyMuPDF;
 Pandoc;
 PyInstaller;
 Inno Setup.
+
+#Link direto para instalar:
+
+https://drive.google.com/drive/folders/1etPUN6BFkwskgwfH_MSu5ti9tFel7dyr?usp=sharing
+
+*Atualizado em 6 de junho de 2025.
